@@ -1,1 +1,14 @@
+import React from 'react';
+import { Button } from '@design-system';
 
+const App = () => {
+  return (
+    <div className="p-4">
+      <h1 className="text-2xl font-bold text-blue-600 mb-4">Welcome to Design System Dashboard</h1>
+      <Button variant="primary">Primary Button</Button>
+      <Button variant="secondary" className="ml-4">Secondary Button</Button>
+    </div>
+  );
+};
+
+export default App;
